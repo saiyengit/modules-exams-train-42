@@ -14,20 +14,21 @@
 
 void	ft_putchar(char c)
 {
-	write(1, &c 1);
+	write(1, &c, 1);
 }
 
 int	main(int argc, char **argv)
 {
 	int	i;
 	int	i2;
+	int	i3;
+	int	x;
 	char	*base1;
 	char	*base2;
 
-	base1[] = " abcdefghijklmnopqrstuvwxyz";
-	base2[] = " ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	base1 = " abcdefghijklmnopqrstuvwxyz";
+	base2 = " ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	i = 0;
-	i2 = 0;
 	if (argc != 2)
 	{
 		ft_putchar('\n');
@@ -37,14 +38,42 @@ int	main(int argc, char **argv)
 	{
 		if (argv[1][i] >= 'a' && argv[1][i] <= 'z')
 		{
-			while (base[i2])
+			i2 = 0;
+			while (base1[i2])
 			{
-				if (base[i2] == argv[1][i])
+				if (base1[i2] == argv[1][i])
 				{
+					x = 0;
+					while (x < i2)
+					{
+						ft_putchar(argv[1][i]);
+						x++;
+					}
 				}
+				i2++;
 			}
 		}
-
-		else si c chiffre etc affiche normal
+		if (argv[1][i] >= 'A' && argv[1][i] <= 'Z')
+		{
+			i3 = 0;
+			while (base2[i3])
+			{
+				if (base2[i3] == argv[1][i])
+				{
+					x = 0;
+					while (x < i3)
+					{
+						ft_putchar(argv[1][i]);
+						x++;
+					}
+				}
+				i3++;
+			}
+		}
+		if (!((argv[1][i] >= 'A' && argv[1][i] <= 'Z') || (argv[1][i] >= 'a' && argv[1][i] <= 'z')))
+			ft_putchar(argv[1][i]);
+		i++;
 	}
+	ft_putchar('\n');
+	return (0);
 }
