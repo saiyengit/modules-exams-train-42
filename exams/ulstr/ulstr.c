@@ -19,7 +19,7 @@ int	main(int argc, char **argv)
 	{
 		if (argv[1][i] >= 'a' && argv[1][i] <= 'z')
 			argv[1][i] = argv[1][i] - 32;
-		else (argv[1][i] >= 'A' && argv[1][i] <= 'Z')
+		else if (argv[1][i] >= 'A' && argv[1][i] <= 'Z')
 			argv[1][i] = argv[1][i] + 32;
 		ftputchar(argv[1][i]);
 		i++;
