@@ -26,11 +26,11 @@ int	main(int argc, char **argv)
 			if (argv[1][i] == argv[2][i2])
 			{
 				id = 0;
-				trouve == 0;
+				trouve = 0;
 				while (id < i && trouve == 0)
 				{
 					if (argv[1][i] == argv[1][id])
-						trouve == 1;
+						trouve = 1;
 					id++;
 				}
 				if (trouve == 0)
