@@ -20,18 +20,26 @@ int	debutword(char *str, int i)
 	return (0);
 }
 
+int	ft_strrev(char *str)
+{
+}
+
 int	main(int argc, char **argv)
 {
 	int	i;
-	
+	char	*cpy;
+
 	i = 0;
 	if (argc != 2)
 	{
 		ft_putchar('\n');
 		return (0);
 	}
-	while (spacetab(argv[1][i]) == 1)
+	while (argv[1][i] != '\0')
 		i++;
-	while (argv[1][i] != '\0' && spacetab(argv[1]) == 0)
+	i--;
+	while (i > 0 && spacetab(argv[1][i]) == 0)
 	{
+		cpy[], malloc ou pas, sinn abandonne idee
+		i--;
 	}
