@@ -35,6 +35,7 @@ int	main(int argc, char **argv)
 				}
 				if (trouve == 0)
 					ft_putchar(argv[1][i]);
+				break ;
 			}
 			i2++;
 		}

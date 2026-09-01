@@ -26,7 +26,7 @@ int	ft_atoi(const char *str)
 
 	i = 0;
 	sign = 1;
-	result = 1;
+	result = 0;
 	while (iswhitespace(str[i]) == 1)
 		i++;
 	if (str[i] == '+' || str[i] == '-')
@@ -35,7 +35,7 @@ int	ft_atoi(const char *str)
 			sign = sign * - 1;
 		i++;
 	}
-	if (isdigit(str[i]) == 1)
+	while (isdigit(str[i]) == 1)
 	{
 		digit = char_to_int(str[i]);
 		result = result * 10 + digit;
