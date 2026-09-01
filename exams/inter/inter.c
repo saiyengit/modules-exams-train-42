@@ -12,39 +12,34 @@ int	main(int argc, char **argv)
 	int	id;
 	int	trouve;
 
-	i2 = 0;
 	if (argc != 3)
 	{
 		ft_putchar('\n');
 		return (0);
 	}
-	while (argv[2][i2])
-	{
-		if (argv[1][0] == argv[2][i2])
-			ft_putchar(argv[1][0]);
-		i2++;
-	}
-	i = 1;
-	while (argv[1][i])
+	i = 0;
+	while (argv[1][i] != '\0')
 	{
 		i2 = 0;
-		while (argv[2][i2])
+		while (argv[2][i2] != '\0')
 		{
 			if (argv[1][i] == argv[2][i2])
 			{
 				id = 0;
+				trouve == 0;
 				while (id < i && trouve == 0)
 				{
-					if (argv[1][id] == argv[1][i])
+					if (argv[1][i] == argv[1][id])
 						trouve == 1;
 					id++;
 				}
-				if (trouve == 1)
+				if (trouve == 0)
 					ft_putchar(argv[1][i]);
 			}
 			i2++;
 		}
 		i++;
+
 	}
 	ft_putchar('\n');
 	return (0);
