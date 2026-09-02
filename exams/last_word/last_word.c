@@ -33,11 +33,11 @@ int	main(int argc, char **argv)
 	while (argv[1][i] != '\0')
 		i++;
 	i--;
-	while (spacetab(argv[i][1]) == 1)
+	while (i >= 0 && spacetab(argv[1][i]) == 1)
 		i--;
-	while (debutword(argv[1], i) == 0)
+	while (i >= 0 && debutword(argv[1], i) == 0)
 		i--;
-	while (argv[1][i] != '\0' && spacetab(argv[1][i]) == 0)
+	while (i >= 0 && argv[1][i] != '\0' && spacetab(argv[1][i]) == 0)
 	{
 		ft_putchar(argv[1][i]);
 		i++;
