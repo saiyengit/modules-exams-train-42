@@ -14,36 +14,33 @@ int	spacetab(char c)
 
 char	*cpystr(char *dest, char *src)
 {
-	int	i;
-	int	i2;
-
-	i = 0;
-	i2 = 0;
+	int i = 0;
+	int i2 = 0
+	
 	while (spacetab(src[i]) == 1)
-		i++;
+	i++;
+
 	while (src[i])
 	{
 		if (spacetab(src[i]) == 0)
-			dest[i2] = src[i];
-		if (spacetab(src[i]) == 1)
-		{	
-			dest[i2] = ' ';
-			i2++;
-			dest[i2] = ' ';
-			i2++;
-			dest[i2] = ' ';
-			i2++;
+			dest[i2++] = src[i];
+		else
+		{
 			while (spacetab(src[i]) == 1)
 				i++;
-		}
-		if (spacetab(src[i - 1]) == 1)
+			if (src[i] != '\0')
+			{
+				dest[i2++] = ' ';
+				dest[i2++] = ' ';
+				dest[i2++] = ' ';
+			}
 			i--;
+		}
 		i++;
 	}
-	dest[i] = '\0';
-	return (dest);
+	dest[i2] = '\0';
+	return dest;
 }
-
 int	main(int argc, char **argv)
 {
 	int	i;

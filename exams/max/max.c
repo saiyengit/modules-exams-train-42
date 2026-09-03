@@ -5,7 +5,7 @@ int		max(int* tab, unsigned int len)
 	int	i;
 	int	max;
 
-	max = 0;
+	max = tab[0];
 	i = 0;
 	while (i < len)
 	{
