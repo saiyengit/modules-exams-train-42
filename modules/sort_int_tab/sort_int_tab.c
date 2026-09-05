@@ -21,7 +21,7 @@ void	ft_sort_int_tab(int *tab, int size)
 	int	temp;
 
 	i = 0;
-	while (i < size - 1 && is_sorted(tab, 7) == 0)
+	while (i < size - 1 && is_sorted(tab, size) == 0)
 	{
 		while (tab[i + 1] < tab[i])
 		{
