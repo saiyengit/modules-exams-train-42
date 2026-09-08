@@ -15,7 +15,7 @@ int	spacetab(char c)
 int	debutword(char *str, int i)
 {
 	if ((i == 0 && spacetab(str[i]) == 0) 
-			|| (i > 0 && spacetab(str[i - 1]) == 1))
+			|| (i > 0 && spacetab(str[i - 1]) == 1 && spacetab(str[i]) == 0))
 		return (1);
 	return (0);
 }
