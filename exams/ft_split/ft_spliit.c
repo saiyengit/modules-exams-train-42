@@ -74,12 +74,9 @@ char    **split(char *str)
 	while (str[i])
 	{
 		if (debut_word(str, i) == 1)
-		{
-			res[ir] = extract_word(str, i);
-			i++;
-		}
+			res[ir++] = extract_word(str, i);
 		i++;
 	}
-	res[ir] = '\0';
+	res[ir] = NULL;
 	return (res);
 }
