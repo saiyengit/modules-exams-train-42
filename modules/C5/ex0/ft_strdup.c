@@ -23,14 +23,14 @@ int	ft_strlen(char *str)
 char	*ft_strdup(char *src)
 {
 	char	*cpy;
-	int	i;
-	int	ic;
+	int		i;
+	int		ic;
 
 	i = 0;
 	ic = 0;
 	cpy = malloc(sizeof(char) * ft_strlen(src) + 1);
 	if (cpy == 0)
-		return (0);
+		return (NULL);
 	while (src[i])
 		cpy[ic++] = src[i++];
 	cpy[ic] = '\0';
