@@ -1,69 +1,59 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   utils.c                                            :+:      :+:    :+:   */
+/*   utils3.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ykadoun <ykadoun@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/13 18:17:59 by ykadoun           #+#    #+#             */
-/*   Updated: 2026/09/13 18:18:04 by ykadoun          ###   ########.fr       */
+/*   Created: 2026/09/13 18:22:20 by ykadoun           #+#    #+#             */
+/*   Updated: 2026/09/13 18:23:52 by ykadoun          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "rosetta.h"
 
-int	ft_strlen(char *str)
+int	iswhitespace(char c)
 {
-	int	i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
+	if ((c >= 9 && c <= 13) || (c == 32))
+		return (1);
+	return (0);
 }
 
-int	ft_isdigit(char c)
+int	char_to_int(char c)
+{
+	return (c - '0');
+}
+
+int	isdigit(char c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
 	return (0);
 }
 
-int	ft_isspace(char c)
+int	ft_atoi(const char *str)
 {
-	if (c == ' ' || c == '\t')
-		return (1);
-	return (0);
-}
-
-void	ft_putstr(char *str)
-{
+	int	result;
+	int	sign;
 	int	i;
+	int	digit;
 
 	i = 0;
-	while (str[i])
+	sign = 1;
+	result = 0;
+	while (iswhitespace(str[i]) == 1)
+		i++;
+	if (str[i] == '+' || str[i] == '-')
 	{
-		write(1, &str[i], 1);
+		if (str[i] == '-')
+			sign = sign * -1;
 		i++;
 	}
-}
-
-char	*ft_strdup(char *src)
-{
-	char	*copy;
-	int		len;
-	int		i;
-
-	i = 0;
-	len = ft_strlen(src);
-	copy = malloc(sizeof(char) * (len + 1));
-	if (copy == 0)
-		return (NULL);
-	while (src[i])
+	while (isdigit(str[i]) == 1)
 	{
-		copy[i] = src[i];
+		digit = char_to_int(str[i]);
+		result = result * 10 + digit;
 		i++;
 	}
-	copy[i] = '\0';
-	return (copy);
+	return (result * sign);
 }

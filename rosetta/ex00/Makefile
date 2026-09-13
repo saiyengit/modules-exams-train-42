@@ -1,24 +1,25 @@
-NAME = rush-02
-CC = cc
-CFLAGS = -Wall -Wextra -Werror
+NAME = rush - 02 CC = cc CFLAGS = -Wall - Wextra -
+	Werror
 
-SRCS = main.c utils.c utils2.c
-OBJS = $(SRCS:.c=.o)
+		SRCS = main.c utils.c utils2.c OBJS = $(SRCS
+												:.c =.o)
 
-all: $(NAME)
+													all : $(NAME)
 
-$(NAME): $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o $(NAME)
+															$(NAME)
+	: $(OBJS) $(CC) $(CFLAGS) $(OBJS) -
+		o $(NAME)
 
-%.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
+			%.o : %.c $(CC) $(CFLAGS) -
+		c $ <
+	-o $ @
 
-clean:
-	rm -f $(OBJS)
+		clean : rm -
+		f $(OBJS)
 
-fclean: clean
-	rm -f $(NAME)
+			fclean : clean rm -
+						f $(NAME)
 
-re: fclean all
+							re : fclean all
 
-.PHONY: all clean fclean re
+									.PHONY : all clean fclean re
