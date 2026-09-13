@@ -19,7 +19,7 @@ int	is_valid_number(char *str)
 		i++;
 	if (str[i] == '\0')
 		return (0);
-	while (str[i] != '\0')
+	while (str[i])
 	{
 		if (ft_isdigit(str[i]) == 0)
 			return (0);
