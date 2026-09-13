@@ -2,7 +2,7 @@ NAME = rush-02
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-SRCS = ?
+SRCS = main.c utils.c utils2.c
 OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)
