@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_split.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ykadoun <ykadoun@learner.42.tech>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/09/14 15:32:05 by ykadoun           #+#    #+#             */
+/*   Updated: 2026/09/14 15:38:53 by ykadoun          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdlib.h>
 
 int	issep(char c, char *charset)
@@ -72,12 +84,11 @@ char	**split(char *str, char *charset)
 	char	**res;
 	int		i;
 	int		ir;
-	int		i2;
 
 	i = 0;
 	ir = 0;
 	res = malloc(sizeof(char *) * (count_words(str, charset) + 1));
-	if (res == 0)
+	if (res == NULL)
 		return (NULL);
 	while (str[i])
 	{
@@ -85,16 +96,7 @@ char	**split(char *str, char *charset)
 		{
 			res[ir] = extract_word(str, i, charset);
 			if (res[ir] == NULL)
-			{
-				i2 = 0;
-				while (i2 < ir)
-				{
-					free(res[i2]);
-					i2++;
-				}
-				free(res);
 				return (NULL);
-			}
 			ir++;
 		}
 		i++;
