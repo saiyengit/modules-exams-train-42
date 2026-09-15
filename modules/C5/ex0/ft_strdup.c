@@ -6,9 +6,11 @@
 /*   By: ykadoun <ykadoun@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/06 15:36:34 by ykadoun           #+#    #+#             */
-/*   Updated: 2026/09/09 15:27:35 by ykadoun          ###   ########.fr       */
+/*   Updated: 2026/09/16 01:37:27 by ykadoun          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdlib.h>
 
 int	ft_strlen(char *str)
 {

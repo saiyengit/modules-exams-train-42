@@ -6,7 +6,7 @@
 /*   By: ykadoun <ykadoun@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/14 15:32:05 by ykadoun           #+#    #+#             */
-/*   Updated: 2026/09/14 15:38:53 by ykadoun          ###   ########.fr       */
+/*   Updated: 2026/09/16 01:34:06 by ykadoun          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,8 @@ int	issep(char c, char *charset)
 
 int	debut_word(char *str, int i, char *charset)
 {
-	if ((i == 0 && issep(str[i], charset) == 0)
-		|| (i > 0 && issep(str[i], charset) == 0
-			&& issep(str[i - 1], charset) == 1))
+	if ((i == 0 && issep(str[i], charset) == 0) || (i > 0 && issep(str[i],
+				charset) == 0 && issep(str[i - 1], charset) == 1))
 		return (1);
 	return (0);
 }
@@ -51,35 +50,31 @@ int	count_words(char *str, char *charset)
 	return (total);
 }
 
-int	wordlen(int start, char *str, char *charset)
+char	*extract_word(char *str, int start, char *charset)
 {
-	int	len;
+	char	*cpy;
+	int		ic;
+	int		len;
+	int		memostart;
 
+	memostart = start;
 	len = 0;
 	while (str[start] && issep(str[start], charset) == 0)
 	{
 		start++;
 		len++;
 	}
-	return (len);
-}
-
-char	*extract_word(char *str, int start, char *charset)
-{
-	char	*cpy;
-	int		ic;
-
 	ic = 0;
-	cpy = malloc(sizeof(char) * (wordlen(start, str, charset) + 1));
+	cpy = malloc(sizeof(char) * (len + 1));
 	if (cpy == 0)
 		return (NULL);
-	while (str[start] && issep(str[start], charset) == 0)
-		cpy[ic++] = str[start++];
+	while (str[memostart] && issep(str[memostart], charset) == 0)
+		cpy[ic++] = str[memostart++];
 	cpy[ic] = '\0';
 	return (cpy);
 }
 
-char	**split(char *str, char *charset)
+char	**ft_split(char *str, char *charset)
 {
 	char	**res;
 	int		i;
