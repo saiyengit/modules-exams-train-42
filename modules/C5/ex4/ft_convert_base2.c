@@ -55,4 +55,45 @@ int	allbasevalid(char *base_from, char *base_to)
 	return (0);
 }
 
+int	getcharvalue(char c, char *base)
+{
+	int	i;
+
+	i = 0;
+	while (base[i])
+	{
+		if (base[i] == c)
+			return (i);
+		i++;
+	}
+	return (-1);
+}
+
 int	ft_atoi_base(char *str, char *base)
+{
+	int	i;
+	int	result;
+	int	baselen;
+	int	sign;
+
+	i = 0;
+	baselen = 0;
+	sign = 1;
+	result = 0;
+	while (base[baselen])
+		baselen++;
+	while ((str[i] >= 9 && str[i] <= 13) || (str[i] == 32))
+		i++;
+	while (str[i] == '+' || str[i] == '-')
+	{
+		if (str[i] == '-')
+			sign = sign * -1;
+		i++;
+	}
+	while (getcharvalue(str[i], base) != -1)
+	{
+		result = result * baselen + getcharvalue(str[i], base);
+		i++;
+	}
+	return (result * sign);
+}
