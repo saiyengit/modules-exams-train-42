@@ -97,3 +97,9 @@ int	ft_atoi_base(char *str, char *base)
 	}
 	return (result * sign);
 }
+
+// int	main(void)
+// {
+// 	printf("%d\n", ft_atoi_base("101010", "01"));
+// 	return (0);
+// }

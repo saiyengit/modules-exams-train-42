@@ -80,3 +80,9 @@ char	*ft_convert_base(char *nbr, char *base_from, char *base_to)
 		return (NULL);
 	return (itoa_base(ft_atoi_base(nbr, base_from), base_to));
 }
+
+// int	main(void)
+// {
+// 	printf("%s\n", ft_convert_base("42", "0123456789", "01"));
+// 	return (0);
+// }

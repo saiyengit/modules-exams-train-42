@@ -33,3 +33,12 @@ int	*ft_range(int min, int max)
 	}
 	return (tab);
 }
+
+// int	main(void)
+// {
+// 	int	*tab;
+//
+// 	tab = ft_range(0, 3);
+// 	printf("%d %d %d\n", tab[0], tab[1], tab[2]);
+// 	return (0);
+// }

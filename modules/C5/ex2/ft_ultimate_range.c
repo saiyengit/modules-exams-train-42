@@ -35,3 +35,13 @@ int	ft_ultimate_range(int **range, int min, int max)
 	}
 	return (size);
 }
+
+// int	main(void)
+// {
+// 	int	*range;
+// 	int	size;
+//
+// 	size = ft_ultimate_range(&range, 0, 3);
+// 	printf("%d: %d %d %d\n", size, range[0], range[1], range[2]);
+// 	return (0);
+// }

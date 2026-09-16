@@ -75,3 +75,13 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	ft_strjoin_fill(res, size, strs, sep);
 	return (res);
 }
+
+// int	main(void)
+// {
+// 	char	*strs[2];
+//
+// 	strs[0] = "hello";
+// 	strs[1] = "world";
+// 	printf("%s\n", ft_strjoin(2, strs, " "));
+// 	return (0);
+// }

@@ -99,3 +99,12 @@ char	**ft_split(char *str, char *charset)
 	res[ir] = NULL;
 	return (res);
 }
+
+// int	main(void)
+// {
+// 	char	**res;
+//
+// 	res = ft_split("hello world", " ");
+// 	printf("%s %s\n", res[0], res[1]);
+// 	return (0);
+// }

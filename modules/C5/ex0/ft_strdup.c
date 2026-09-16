@@ -6,7 +6,7 @@
 /*   By: ykadoun <ykadoun@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/06 15:36:34 by ykadoun           #+#    #+#             */
-/*   Updated: 2026/09/16 01:37:27 by ykadoun          ###   ########.fr       */
+/*   Updated: 2026/09/16 02:01:24 by ykadoun          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ char	*ft_strdup(char *src)
 
 	i = 0;
 	ic = 0;
-	cpy = malloc(sizeof(char) * ft_strlen(src) + 1);
+	cpy = malloc(sizeof(char) * (ft_strlen(src) + 1));
 	if (cpy == 0)
 		return (NULL);
 	while (src[i])
@@ -38,3 +38,9 @@ char	*ft_strdup(char *src)
 	cpy[ic] = '\0';
 	return (cpy);
 }
+
+// int	main(void)
+// {
+// 	printf("%s\n", ft_strdup("hello"));
+// 	return (0);
+// }
