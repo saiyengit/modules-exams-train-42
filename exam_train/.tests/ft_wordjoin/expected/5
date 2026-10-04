@@ -1,0 +1,2 @@
+ft_wordjoin("   ", "-") = ""
+malloc : taille exacte ok

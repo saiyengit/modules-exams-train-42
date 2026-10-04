@@ -1,0 +1,32 @@
+Assignment name  : nth_word
+Expected files   : nth_word.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and a number n, and displays the n-th word
+of the string, followed by a newline. The first word is word number 1.
+
+A word is a section of string delimited by spaces/tabs, or by the start/end of
+the string.
+
+n is written in base 10 and fits in an int: it only contains digits, with maybe
+one '-' at the beginning.
+
+If the number of parameters is not 2, if n is not strictly positive, or if the
+string has fewer than n words, the program just displays a newline.
+
+Examples:
+
+$> ./nth_word "  les   dauphins  sont   la " 2 | cat -e
+dauphins$
+$> ./nth_word "un deux trois" 3 | cat -e
+trois$
+$> ./nth_word "un deux" 3 | cat -e
+$
+$> ./nth_word "un deux" 0 | cat -e
+$
+$> ./nth_word "     " 1 | cat -e
+$
+$> ./nth_word "un deux" | cat -e
+$
+$>

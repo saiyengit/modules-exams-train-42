@@ -1,0 +1,7 @@
+flood_count(tab, size = {7, 4}, begin = {6, 0}) = 6
+tab : intact
+tab :
+  1100111
+  1001001
+  1111011
+  0010000

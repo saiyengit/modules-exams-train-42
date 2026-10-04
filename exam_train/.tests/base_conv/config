@@ -1,0 +1,6 @@
+NAME=base_conv
+TYPE=program
+FILES="base_conv.c"
+LEVEL=3
+WRAP=0
+TIMEOUT=3

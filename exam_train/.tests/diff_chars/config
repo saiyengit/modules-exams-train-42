@@ -1,0 +1,6 @@
+NAME=diff_chars
+TYPE=program
+FILES="diff_chars.c"
+LEVEL=5
+WRAP=0
+TIMEOUT=3

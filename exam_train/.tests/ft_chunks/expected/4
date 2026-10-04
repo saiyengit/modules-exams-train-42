@@ -1,0 +1,2 @@
+ft_chunks("", 4) = {NULL}
+copies : ok

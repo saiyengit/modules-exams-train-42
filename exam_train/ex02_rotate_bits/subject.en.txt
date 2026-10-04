@@ -1,0 +1,32 @@
+Assignment name  : rotate_bits
+Expected files   : rotate_bits.c
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Write a function that takes a byte, rotates its bits n times, and returns the
+result.
+
+Rotating a byte once to the left moves every bit one position to the left, and
+the bit that falls off on the left comes back on the right. Rotating once to
+the right does the opposite.
+
+If n is positive, rotate n times to the left. If n is negative, rotate -n times
+to the right. n can be any int, and your function must stay fast even when n
+is very large.
+
+Your function must be declared as follows:
+
+unsigned char	rotate_bits(unsigned char octet, int n);
+
+Example, with n = 3:
+
+  1011 0010
+      ||
+      \/
+  1001 0101
+
+Other examples:
+
+- rotate_bits(1, -1) returns 128   (0000 0001 -> 1000 0000)
+- rotate_bits(129, 1) returns 3    (1000 0001 -> 0000 0011)
+- rotate_bits(178, 8) returns 178

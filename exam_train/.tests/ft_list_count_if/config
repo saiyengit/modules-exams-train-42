@@ -1,0 +1,6 @@
+NAME=ft_list_count_if
+TYPE=function
+FILES="ft_list_count_if.c ft_list.h"
+LEVEL=4
+WRAP=0
+TIMEOUT=3

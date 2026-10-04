@@ -1,0 +1,7 @@
+depart : []
+push "a" -> ["a"]
+  verif : ok
+push "b" -> ["a", "b"]
+  verif : ok
+push "c" -> ["a", "b", "c"]
+  verif : ok

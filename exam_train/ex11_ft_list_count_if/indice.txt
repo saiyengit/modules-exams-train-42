@@ -1,0 +1,10 @@
+Indices - ft_list_count_if   (à n'ouvrir qu'après ~20 min bloqué)
+
+1. Si struct/typedef te bloque : prends 10 min pour dessiner 3 maillons sur
+   papier (une case data, une case next, des flèches). Que vaut le next du
+   dernier ? Qu'est-ce que tu écris pour passer d'un maillon au suivant ?
+2. "Différent de 0" : ta condition teste quoi exactement ? Que se passe-t-il si
+   f renvoie 5, ou -1 ? (C'est pareil avec isalpha & co de la libc : elles
+   renvoient "non zéro", pas forcément 1.)
+3. Le header : qu'est-ce qu'il doit contenir, et qu'est-ce qui le protège s'il
+   est inclus deux fois ?

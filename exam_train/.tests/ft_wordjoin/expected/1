@@ -1,0 +1,2 @@
+ft_wordjoin("  vous   voyez  ", " ") = "vous voyez"
+malloc : taille exacte ok

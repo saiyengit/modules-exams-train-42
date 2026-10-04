@@ -1,0 +1,12 @@
+Indices - flood_count        (à n'ouvrir qu'après ~20 min bloqué)
+
+1. Pars de ce que tu ferais pour flood_fill (récursion sur les 4 voisins) :
+   qu'est-ce qui t'empêche de compter deux fois la même case ?
+2. Le tableau doit rester intact. Deux pistes : marquer puis tout remettre, ou
+   marquer ailleurs que dans tab. Si tu marques avec un caractère, peux-tu être
+   sûr qu'il n'existe pas déjà dans le tableau ? (Le sujet dit "printable".)
+3. Tes conditions d'arrêt : dans quel ordre tu testes "hors du tableau" et
+   "pas le bon caractère" ? Lire tab[y][x] avant de vérifier x et y, c'est déjà
+   trop tard.
+4. Si tu fais une copie : copier les pointeurs des lignes, ou le contenu des
+   lignes ?

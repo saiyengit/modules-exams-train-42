@@ -1,0 +1,2 @@
+ft_wordjoin("  x  ", "<sep>") = "x"
+malloc : taille exacte ok
