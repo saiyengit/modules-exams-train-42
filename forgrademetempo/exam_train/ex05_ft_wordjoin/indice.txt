@@ -1,0 +1,7 @@
+Indices - ft_wordjoin    (à n'ouvrir qu'après ~20 min bloqué)
+
+1. Avant le malloc, il te faut la taille exacte. De quoi elle dépend ?
+   (combien de lettres dans les mots, combien de mots, longueur de sep)
+2. Combien de séparateurs pour 3 mots ? Pour 1 mot ? Pour 0 mot ?
+3. Pourquoi un buffer fixe (ou un malloc(10000)) ne passe pas ici ? Le testeur
+   vérifie le nombre d'octets demandés à malloc.

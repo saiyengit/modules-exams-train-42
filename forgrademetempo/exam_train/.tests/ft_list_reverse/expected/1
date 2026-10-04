@@ -1,0 +1,3 @@
+avant : ["a", "b", "c", "d"]
+apres : ["d", "c", "b", "a"]
+maillons : ok

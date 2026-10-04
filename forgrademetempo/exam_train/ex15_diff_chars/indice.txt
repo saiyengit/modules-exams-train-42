@@ -1,0 +1,8 @@
+Indices - diff_chars     (à n'ouvrir qu'après ~20 min bloqué)
+
+1. C'est inter à l'envers : dans inter tu gardes un caractère s'il est dans s2,
+   ici tu le gardes s'il n'y est PAS. Qu'est-ce qui change dans ta condition ?
+2. "Sans doublons" : comment tu sais si tu as déjà affiché ce caractère ?
+   (Même question que dans inter/union : regarder avant dans s1, ou retenir
+   ce que t'as déjà vu ?)
+3. Teste "abc" "" : rien n'est dans s2, donc tout s'affiche.

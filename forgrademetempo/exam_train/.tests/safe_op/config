@@ -1,0 +1,6 @@
+NAME=safe_op
+TYPE=program
+FILES="safe_op.c"
+LEVEL=1
+WRAP=0
+TIMEOUT=3

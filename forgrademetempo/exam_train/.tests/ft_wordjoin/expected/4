@@ -1,0 +1,2 @@
+ft_wordjoin("seul", "---") = "seul"
+malloc : taille exacte ok

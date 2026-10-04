@@ -1,0 +1,2 @@
+ft_chunks("ab", 2147483647) = {"ab", NULL}
+copies : ok

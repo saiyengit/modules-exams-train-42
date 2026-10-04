@@ -1,0 +1,8 @@
+Indices - ft_interdup    (à n'ouvrir qu'après ~20 min bloqué)
+
+1. Ton inter affiche les caractères un par un. Ici tu les ranges dans une chaîne :
+   à quel index tu écris le prochain, et quand est-ce qu'il avance ?
+2. La taille du malloc : tu ne connais pas le résultat à l'avance. Quelle est la
+   taille maximale possible du résultat ? (Ou : faire un premier passage juste
+   pour compter.)
+3. N'oublie pas le '\0' à la fin, même quand le résultat est vide.

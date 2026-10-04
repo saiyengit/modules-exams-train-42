@@ -1,0 +1,3 @@
+depart : []
+push "seul" -> ["seul"]
+  verif : ok

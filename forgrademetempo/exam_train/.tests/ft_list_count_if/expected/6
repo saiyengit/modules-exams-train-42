@@ -1,0 +1,3 @@
+liste : ["abc", "def"]
+f renvoie 1 si data commence par une majuscule, sinon 0
+ft_list_count_if = 0

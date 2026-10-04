@@ -1,0 +1,29 @@
+Assignment name  : lcm_tab
+Expected files   : lcm_tab.c
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Write a function that returns the least common multiple (LCM) of all the
+numbers of the array tab, whose size is len.
+
+The LCM of several numbers is the smallest strictly positive number that is a
+multiple of each of them.
+
+If len is 0 (tab may then be NULL), or if one of the numbers is 0, the function
+returns 0.
+
+The result always fits in an unsigned int.
+
+Your function must answer in less than a second, whatever the input.
+
+It must be declared as follows:
+
+unsigned int	lcm_tab(unsigned int *tab, unsigned int len);
+
+Examples:
+
+- With {4, 6}, you will return 12.
+- With {2, 3, 4, 5}, you will return 60.
+- With {7}, you will return 7.
+- With {65536, 65536}, you will return 65536.
+- With {12, 0, 5}, you will return 0.

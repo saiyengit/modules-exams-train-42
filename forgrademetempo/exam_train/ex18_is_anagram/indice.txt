@@ -1,0 +1,8 @@
+Indices - is_anagram     (à n'ouvrir qu'après ~20 min bloqué)
+
+1. "Mêmes caractères" ne suffit pas : "aab" et "abb" ont les mêmes lettres. Qu'est-
+   ce qu'il faut comparer en plus ?
+2. Pour chaque caractère de s1, tu peux compter combien de fois il est dans s1
+   et combien de fois il est dans s2. Ça suffit ? (Pense aussi aux caractères de
+   s2 qui ne sont pas dans s1... ou aux longueurs.)
+3. Autre piste : un tableau de 256 compteurs, un par caractère possible.

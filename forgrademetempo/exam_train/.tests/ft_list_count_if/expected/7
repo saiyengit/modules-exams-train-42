@@ -1,0 +1,3 @@
+liste : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+f renvoie -1 si data ne contient que des chiffres, sinon 0
+ft_list_count_if = 10

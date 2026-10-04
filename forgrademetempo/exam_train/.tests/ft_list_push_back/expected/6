@@ -1,0 +1,5 @@
+depart : ["x", "y"]
+push "z" (malloc echoue) -> ["x", "y"]
+  verif : ok
+push "z" -> ["x", "y", "z"]
+  verif : ok

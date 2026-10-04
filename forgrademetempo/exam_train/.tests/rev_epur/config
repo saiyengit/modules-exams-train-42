@@ -1,0 +1,6 @@
+NAME=rev_epur
+TYPE=program
+FILES="rev_epur.c"
+LEVEL=2
+WRAP=0
+TIMEOUT=3

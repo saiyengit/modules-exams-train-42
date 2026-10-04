@@ -1,0 +1,9 @@
+Indices - rotate_bits    (à n'ouvrir qu'après ~20 min bloqué)
+
+1. Fais-le sur papier avec 1011 0010 et n = 1 : quel bit sort, et où est-ce
+   qu'il revient ? Quels opérateurs C déplacent des bits ? Lequel les combine ?
+2. Que donne une rotation de 8 ? De 16 ? Qu'est-ce que ça te dit pour un n
+   énorme ?
+3. Une rotation de 3 vers la droite, c'est une rotation de combien vers la
+   gauche ?
+4. En C, que vaut -11 % 8 ? Teste-le avant de t'en servir.

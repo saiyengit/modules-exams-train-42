@@ -1,0 +1,9 @@
+Indices - ft_chunks      (à n'ouvrir qu'après ~20 min bloqué)
+
+1. Combien de morceaux pour une longueur L et une taille n ? Vérifie ta
+   formule avec L = 8 et n = 3, puis L = 6 et n = 2, puis L = 0.
+2. Deux niveaux de malloc : le tableau de pointeurs (combien de cases, NULL
+   compris ?) puis chaque morceau (combien d'octets, '\0' compris ?).
+3. Faire pointer une case du tableau quelque part dans str, est-ce une copie ?
+4. Avec n = 2147483647 : est-ce qu'un de tes calculs intermédiaires dépasse
+   INT_MAX ?

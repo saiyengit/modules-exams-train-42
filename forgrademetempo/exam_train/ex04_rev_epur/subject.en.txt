@@ -1,0 +1,31 @@
+Assignment name  : rev_epur
+Expected files   : rev_epur.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string and displays its words in reverse order,
+separated by exactly one space, followed by a newline.
+
+A word is a section of string delimited by spaces/tabs, or by the start/end of
+the string.
+
+Unlike rev_wstr, the string can contain several spaces or tabs between the
+words, and also at the beginning or at the end. The output must not start or
+end with a space.
+
+If the number of parameters is not 1, or if there is no word, the program just
+displays a newline.
+
+Examples:
+
+$> ./rev_epur "  vous   voyez   c'est    facile " | cat -e
+facile c'est voyez vous$
+$> ./rev_epur "seul" | cat -e
+seul$
+$> ./rev_epur "     " | cat -e
+$
+$> ./rev_epur "" | cat -e
+$
+$> ./rev_epur "a" "b" | cat -e
+$
+$>

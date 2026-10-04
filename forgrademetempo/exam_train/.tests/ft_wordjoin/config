@@ -1,0 +1,6 @@
+NAME=ft_wordjoin
+TYPE=function
+FILES="ft_wordjoin.c"
+LEVEL=2
+WRAP=1
+TIMEOUT=3

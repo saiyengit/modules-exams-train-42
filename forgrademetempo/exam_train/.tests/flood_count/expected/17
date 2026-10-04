@@ -1,0 +1,4 @@
+flood_count(tab, size = {9, 1}, begin = {4, 0}) = 1
+tab : intact
+tab :
+  aaaabaaaa

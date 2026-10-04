@@ -1,0 +1,33 @@
+Assignment name  : ft_list_push_back
+Expected files   : ft_list_push_back.c, ft_list.h
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+Write a function that adds a new element at the end of a list.
+
+The new element is allocated with malloc. Its data is the pointer data (the
+pointer itself: what it points to must not be copied), and its next is NULL.
+
+If the list is empty (*begin_list is NULL), the new element becomes the first
+element of the list.
+
+If the allocation fails, the list stays unchanged.
+
+It must be declared as follows:
+
+void	ft_list_push_back(t_list **begin_list, void *data);
+
+You must use the following structure, and turn it in as a file called
+ft_list.h:
+
+typedef struct		s_list
+{
+	struct s_list	*next;
+	void			*data;
+}					t_list;
+
+Example:
+
+Starting from an empty list, pushing "a", then "b", then "c" gives the list:
+
+"a" -> "b" -> "c" -> NULL

@@ -1,0 +1,41 @@
+Assignment name  : safe_op
+Expected files   : safe_op.c
+Allowed functions: atoi, write
+--------------------------------------------------------------------------------
+
+Write a program that takes three strings:
+- The first and the third one are representations of base-10 signed integers
+  that fit in an int.
+- The second one is an arithmetic operator.
+
+The program must display the result of the requested operation, followed by a
+newline.
+
+The valid operators are: + - * / %
+
+If the second string is not exactly one of these five operators, or if the
+operation is a division or a modulo by 0, the program displays "Error" followed
+by a newline instead.
+
+If the number of parameters is not 3, the program just displays a newline.
+
+You can assume that the numbers have no mistakes or extraneous characters, and
+that the result of every valid operation fits in an int.
+
+Examples:
+
+$> ./safe_op "12" "+" "30" | cat -e
+42$
+$> ./safe_op "-7" "%" "3" | cat -e
+-1$
+$> ./safe_op "5" "+" "0" | cat -e
+5$
+$> ./safe_op "42" "/" "0" | cat -e
+Error$
+$> ./safe_op "1" "plus" "1" | cat -e
+Error$
+$> ./safe_op "-2147483647" "-" "1" | cat -e
+-2147483648$
+$> ./safe_op | cat -e
+$
+$>

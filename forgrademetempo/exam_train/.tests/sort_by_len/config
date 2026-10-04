@@ -1,0 +1,6 @@
+NAME=sort_by_len
+TYPE=program
+FILES="sort_by_len.c"
+LEVEL=2
+WRAP=0
+TIMEOUT=3

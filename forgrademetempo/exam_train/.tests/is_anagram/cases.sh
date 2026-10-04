@@ -1,0 +1,15 @@
+# cas de test de is_anagram (une ligne = un test)
+t 'chien' 'niche'
+t 'marie' 'aimer'
+t 'abc' 'abd'
+t 'aab' 'abb'
+t '' ''
+t 'a' ''
+t 'Chien' 'niche'
+t 'a b' 'ba '
+t 'a b' 'ab'
+t 'listen'
+t
+t 'x' 'y' 'z'
+t 'aaaaaaaaaab' 'baaaaaaaaaa'
+t 'ecoute' 'couteee'

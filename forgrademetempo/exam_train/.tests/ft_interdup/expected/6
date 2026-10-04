@@ -1,0 +1,2 @@
+ft_interdup("abc", "") = ""
+malloc : ok

@@ -1,0 +1,2 @@
+ft_wordjoin("a b", "") = "ab"
+malloc : taille exacte ok

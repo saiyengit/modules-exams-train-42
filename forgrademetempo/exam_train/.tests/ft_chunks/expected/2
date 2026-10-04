@@ -1,0 +1,2 @@
+ft_chunks("abcdef", 2) = {"ab", "cd", "ef", NULL}
+copies : ok

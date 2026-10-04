@@ -1,0 +1,6 @@
+flood_count(tab, size = {4, 3}, begin = {2, 0}) = 3
+tab : intact
+tab :
+  FF1F
+  F11F
+  FFFF

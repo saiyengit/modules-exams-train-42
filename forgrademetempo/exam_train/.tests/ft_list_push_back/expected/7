@@ -1,0 +1,5 @@
+depart : []
+push "z" (malloc echoue) -> []
+  verif : ok
+push "z" -> ["z"]
+  verif : ok

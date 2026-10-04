@@ -1,0 +1,29 @@
+Assignment name  : is_anagram
+Expected files   : is_anagram.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes two strings and displays "1" if the second string is
+an anagram of the first one, "0" otherwise, followed by a newline.
+
+Two strings are anagrams if they contain exactly the same characters, the same
+number of times, in any order. Every character counts (spaces included), and
+uppercase and lowercase letters are different characters.
+
+If the number of parameters is not 2, the program just displays a newline.
+
+Examples:
+
+$> ./is_anagram "chien" "niche" | cat -e
+1$
+$> ./is_anagram "abc" "abd" | cat -e
+0$
+$> ./is_anagram "aab" "abb" | cat -e
+0$
+$> ./is_anagram "Chien" "niche" | cat -e
+0$
+$> ./is_anagram "a b" "ba " | cat -e
+1$
+$> ./is_anagram "listen" | cat -e
+$
+$>

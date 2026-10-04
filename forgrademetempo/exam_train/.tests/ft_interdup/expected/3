@@ -1,0 +1,2 @@
+ft_interdup("rien", "cette phrase ne cache rien") = "rien"
+malloc : ok

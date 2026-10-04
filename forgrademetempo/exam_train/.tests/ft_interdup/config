@@ -1,0 +1,6 @@
+NAME=ft_interdup
+TYPE=function
+FILES="ft_interdup.c"
+LEVEL=5
+WRAP=1
+TIMEOUT=3

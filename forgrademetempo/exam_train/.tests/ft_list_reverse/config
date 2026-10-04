@@ -1,0 +1,6 @@
+NAME=ft_list_reverse
+TYPE=function
+FILES="ft_list_reverse.c ft_list.h"
+LEVEL=4
+WRAP=1
+TIMEOUT=3
