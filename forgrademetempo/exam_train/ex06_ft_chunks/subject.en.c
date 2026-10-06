@@ -1,0 +1,40 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   subject.en.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ykadoun <yannis.kadoun@learner.42.tech>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/04 20:22:25 by ykadoun           #+#    #+#             */
+/*   Updated: 2026/10/04 20:22:25 by ykadoun          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+Assignment name  : ft_chunks
+Expected files   : ft_chunks.c
+Allowed functions: malloc, free
+--------------------------------------------------------------------------------
+
+Write a function that cuts the string str into pieces of n characters, and
+returns them in a NULL-terminated array of strings. The last piece can be
+shorter than n.
+
+The array and every piece must be allocated with malloc. The pieces are copies:
+str must not be modified.
+
+If str is NULL, or if n is lower than or equal to 0, the function returns NULL.
+If str is empty, the function returns an array that only contains NULL.
+n can be any int.
+
+It must be declared as follows:
+
+char	**ft_chunks(char *str, int n);
+
+Examples:
+
+- ft_chunks("abcdefgh", 3) returns {"abc", "def", "gh", NULL}
+- ft_chunks("abcdef", 2) returns {"ab", "cd", "ef", NULL}
+- ft_chunks("hello world", 5) returns {"hello", " worl", "d", NULL}
+- ft_chunks("abc", 10) returns {"abc", NULL}
+- ft_chunks("", 4) returns {NULL}
+- ft_chunks("abc", 0) returns NULL

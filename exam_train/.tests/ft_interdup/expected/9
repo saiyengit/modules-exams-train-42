@@ -1,2 +1,0 @@
-ft_interdup("  a  b  ", " b") = " b"
-malloc : ok

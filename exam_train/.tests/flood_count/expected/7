@@ -1,4 +1,0 @@
-flood_count(tab, size = {1, 1}, begin = {0, 0}) = 1
-tab : intact
-tab :
-  a

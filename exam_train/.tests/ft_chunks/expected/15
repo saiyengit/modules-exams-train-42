@@ -1,2 +1,0 @@
-ft_chunks("  espaces  ", 3) = {"  e", "spa", "ces", "  ", NULL}
-copies : ok

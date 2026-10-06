@@ -1,2 +1,0 @@
-ft_chunks("hello world", 5) = {"hello", " worl", "d", NULL}
-copies : ok

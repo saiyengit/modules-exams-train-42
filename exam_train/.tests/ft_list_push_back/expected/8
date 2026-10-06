@@ -1,5 +1,0 @@
-depart : []
-push "" -> [""]
-  verif : ok
-push "" -> ["", ""]
-  verif : ok

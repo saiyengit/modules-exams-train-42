@@ -1,5 +1,0 @@
-depart : ["x", "y"]
-push "z" -> ["x", "y", "z"]
-  verif : ok
-push "w" -> ["x", "y", "z", "w"]
-  verif : ok

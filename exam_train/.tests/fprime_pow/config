@@ -1,6 +1,0 @@
-NAME=fprime_pow
-TYPE=program
-FILES="fprime_pow.c"
-LEVEL=3
-WRAP=0
-TIMEOUT=3

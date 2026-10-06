@@ -1,6 +1,0 @@
-NAME=ft_chunks
-TYPE=function
-FILES="ft_chunks.c"
-LEVEL=2
-WRAP=1
-TIMEOUT=3

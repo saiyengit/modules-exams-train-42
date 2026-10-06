@@ -1,2 +1,0 @@
-ft_wordjoin("un deux trois", ", ") = "un, deux, trois"
-malloc : taille exacte ok

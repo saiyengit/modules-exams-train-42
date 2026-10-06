@@ -1,6 +1,0 @@
-NAME=nth_word
-TYPE=program
-FILES="nth_word.c"
-LEVEL=1
-WRAP=0
-TIMEOUT=3

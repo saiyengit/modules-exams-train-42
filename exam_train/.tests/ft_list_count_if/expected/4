@@ -1,3 +1,0 @@
-liste : ["42", "4a2", "", "007", "x"]
-f renvoie -1 si data ne contient que des chiffres, sinon 0
-ft_list_count_if = 2

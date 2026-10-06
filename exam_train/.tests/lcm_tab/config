@@ -1,6 +1,0 @@
-NAME=lcm_tab
-TYPE=function
-FILES="lcm_tab.c"
-LEVEL=3
-WRAP=0
-TIMEOUT=3

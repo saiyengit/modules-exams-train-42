@@ -1,9 +1,0 @@
-Indices - sort_by_len    (à n'ouvrir qu'après ~20 min bloqué)
-
-1. Deux approches : découper en tableau de mots puis trier, ou ne rien stocker
-   et faire plusieurs passages sur la chaîne. Laquelle garde l'ordre d'origine
-   sans effort ?
-2. Si tu tries un tableau de char * : tu échanges les pointeurs, ou le contenu
-   des chaînes ?
-3. Ton tri garde-t-il l'ordre des mots de même longueur ? Quand est-ce que tu
-   échanges deux voisins : quand c'est plus grand, ou plus grand ou égal ?

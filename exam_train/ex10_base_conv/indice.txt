@@ -1,8 +1,0 @@
-Indices - base_conv      (à n'ouvrir qu'après ~20 min bloqué)
-
-1. Deux étapes que tu as déjà écrites : chaîne en base N -> nombre, puis
-   nombre -> affichage en base M. Tu te souviens de quels exos ?
-2. "-80000000" en base 16 : pendant que tu accumules la partie positive, est-ce
-   que la valeur tient dans un int ?
-3. Pour afficher -2147483648 : que se passe-t-il si tu fais n = -n sur un int ?
-4. "-0" : tu affiches quoi ?

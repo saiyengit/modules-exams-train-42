@@ -1,9 +1,0 @@
-Indices - lcm_tab        (à n'ouvrir qu'après ~20 min bloqué)
-
-1. Le PPCM de 3 nombres, c'est le PPCM de quoi avec quoi ?
-2. Ta méthode pour le PGCD : combien de tours de boucle pour 4000000000 et
-   2000000000 ? Il existe une méthode qui en fait une trentaine au pire
-   (cherche "algorithme d'Euclide").
-3. a * b / pgcd avec a = b = 65536 : que vaut a * b dans un unsigned int ?
-   Est-ce que tu peux diviser avant de multiplier ?
-4. Ton compteur de boucle est comparé à len (unsigned) : quel type il a ?

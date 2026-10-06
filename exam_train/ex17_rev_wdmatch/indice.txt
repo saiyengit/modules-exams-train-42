@@ -1,5 +1,0 @@
-Indices - rev_wdmatch    (à n'ouvrir qu'après ~20 min bloqué)
-
-1. Reprends ton wdmatch : dans quel sens avance l'index de s2 ? Et ici ?
-2. Où démarre l'index de s2 si tu lis de droite à gauche ? Il s'arrête quand ?
-3. Un caractère de s2 ne peut servir qu'une fois : teste "aa" "a" et "aa" "aba".

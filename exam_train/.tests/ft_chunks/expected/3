@@ -1,2 +1,0 @@
-ft_chunks("abc", 10) = {"abc", NULL}
-copies : ok

@@ -1,7 +1,0 @@
-flood_count(tab, size = {7, 4}, begin = {2, 0}) = 4
-tab : intact
-tab :
-  1100111
-  1001001
-  1111011
-  0010000

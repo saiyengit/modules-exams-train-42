@@ -1,6 +1,0 @@
-NAME=sym_diff
-TYPE=program
-FILES="sym_diff.c"
-LEVEL=5
-WRAP=0
-TIMEOUT=3

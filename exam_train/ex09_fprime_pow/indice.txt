@@ -1,9 +1,0 @@
-Indices - fprime_pow     (à n'ouvrir qu'après ~20 min bloqué)
-
-1. Tu divises par le même facteur tant que ça tombe juste : comment tu sais
-   combien de fois il est apparu ?
-2. 2147483647 est premier : combien de tours fait ta boucle ? Si un nombre n'a
-   aucun diviseur jusqu'à sa racine carrée, qu'est-ce qu'il est ?
-3. Si tu testes "i * i <= n" avec des int : que vaut 46341 * 46341 ? Existe-t-il
-   une façon d'écrire la même condition sans multiplication ?
-4. L'étoile : avant ou après chaque facteur ? Et le cas 1 ?

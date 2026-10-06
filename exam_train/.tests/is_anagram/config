@@ -1,6 +1,0 @@
-NAME=is_anagram
-TYPE=program
-FILES="is_anagram.c"
-LEVEL=5
-WRAP=0
-TIMEOUT=3

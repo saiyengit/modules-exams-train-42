@@ -1,8 +1,0 @@
-Indices - nth_word       (à n'ouvrir qu'après ~20 min bloqué)
-
-1. Écris d'abord le pseudo-code : "sauter les séparateurs, compter un mot,
-   sauter le mot". À quel moment tu t'arrêtes ?
-2. Pas besoin de copier le mot : où il commence, où il finit, et tu affiches.
-3. Avant de rendre, teste "     " et "" : est-ce que ton index peut passer
-   derrière le '\0' ? (Si ton programme affiche un truc bizarre qui n'est pas
-   dans la chaîne, c'est exactement ça : tu lis la mémoire d'après.)

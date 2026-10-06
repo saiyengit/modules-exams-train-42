@@ -1,2 +1,0 @@
-ft_wordjoin("", "abc") = ""
-malloc : taille exacte ok

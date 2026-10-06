@@ -1,8 +1,0 @@
-Indices - safe_op        (à n'ouvrir qu'après ~20 min bloqué)
-
-1. Dans quel ordre tu fais les choses ? Est-ce qu'un calcul part avant que tu
-   sois sûr que l'opérateur ET le deuxième nombre le permettent ?
-2. "Exactement un de ces 5 caractères" : que fait ton code avec "++", "plus",
-   ou "" ?
-3. Ton affichage de nombre : qu'est-ce qui se passe pour -2147483648 au moment
-   où tu "enlèves le signe" ?

@@ -1,2 +1,0 @@
-ft_wordjoin("  deux   mots  ", "") = "deuxmots"
-malloc : taille exacte ok

@@ -1,6 +1,0 @@
-NAME=rotate_bits
-TYPE=function
-FILES="rotate_bits.c"
-LEVEL=1
-WRAP=0
-TIMEOUT=3

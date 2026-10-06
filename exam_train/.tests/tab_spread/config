@@ -1,6 +1,0 @@
-NAME=tab_spread
-TYPE=function
-FILES="tab_spread.c"
-LEVEL=1
-WRAP=0
-TIMEOUT=3

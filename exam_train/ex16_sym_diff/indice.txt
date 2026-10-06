@@ -1,7 +1,0 @@
-Indices - sym_diff       (à n'ouvrir qu'après ~20 min bloqué)
-
-1. Deux passages, comme union : un sur s1, un sur s2. Pour chaque passage, la
-   question à se poser sur un caractère est la même qu'à l'exo diff_chars.
-2. Les doublons : un caractère de s2 qui n'est pas dans s1, mais qui apparaît
-   deux fois dans s2, tu l'affiches combien de fois ?
-3. Teste "aabbcc" "bbddee" à la main avant de coder.

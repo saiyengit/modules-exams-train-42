@@ -1,7 +1,0 @@
-Indices - tab_spread     (à n'ouvrir qu'après ~20 min bloqué)
-
-1. Avec quelle valeur tu démarres ton plus grand et ton plus petit ? Déroule
-   à la main {-5, -3}, puis {10, 20}.
-2. Quel est le type de len ? Et celui de ton compteur ? Compile avec
-   -Wall -Wextra -Werror pour voir ce que le compilo en pense.
-3. Si len vaut 0, est-ce que tu lis quand même une case du tableau ?

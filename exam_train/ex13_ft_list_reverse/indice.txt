@@ -1,8 +1,0 @@
-Indices - ft_list_reverse    (à n'ouvrir qu'après ~20 min bloqué)
-
-1. Dessine 3 maillons. Pour retourner la flèche du maillon du milieu, de quoi
-   dois-tu te souvenir AVANT de la modifier (sinon tu perds la suite) ?
-2. Combien de pointeurs de travail te faut-il en même temps ?
-3. À la fin, sur quel maillon doit pointer *begin_list ?
-4. Échanger les data au lieu de rebrancher, ça a l'air juste à l'affichage,
-   mais le sujet l'interdit, et le testeur le vérifie.

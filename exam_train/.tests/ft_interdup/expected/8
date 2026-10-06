@@ -1,2 +1,0 @@
-ft_interdup("Hello", "hello") = "elo"
-malloc : ok

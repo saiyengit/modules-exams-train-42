@@ -1,9 +1,0 @@
-Indices - rev_epur       (à n'ouvrir qu'après ~20 min bloqué)
-
-1. Pas de malloc, et un tableau de taille fixe casse dès que la chaîne est
-   longue (le testeur envoie plus de 2000 caractères). Et si tu partais de la
-   fin de la chaîne ?
-2. En partant de la fin : comment tu repères la fin d'un mot ? Et son début ?
-3. L'espace entre deux mots : tu l'écris avant ou après un mot ? Comment tu
-   sais que tu affiches le premier ?
-4. Teste "", "     " et "un" : ton index qui descend, il s'arrête où ?

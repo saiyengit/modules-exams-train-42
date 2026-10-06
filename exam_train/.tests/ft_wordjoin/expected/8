@@ -1,2 +1,0 @@
-ft_wordjoin("	tab		bed	", "+") = "tab+bed"
-malloc : taille exacte ok

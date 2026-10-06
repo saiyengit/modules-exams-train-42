@@ -1,2 +1,0 @@
-ft_wordjoin("a b c d e", "   ") = "a   b   c   d   e"
-malloc : taille exacte ok

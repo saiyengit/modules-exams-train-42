@@ -1,6 +1,0 @@
-NAME=rev_wdmatch
-TYPE=program
-FILES="rev_wdmatch.c"
-LEVEL=5
-WRAP=0
-TIMEOUT=3

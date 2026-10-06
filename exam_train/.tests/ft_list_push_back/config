@@ -1,6 +1,0 @@
-NAME=ft_list_push_back
-TYPE=function
-FILES="ft_list_push_back.c ft_list.h"
-LEVEL=4
-WRAP=1
-TIMEOUT=3
